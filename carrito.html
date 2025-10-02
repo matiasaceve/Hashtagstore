@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HashtagStore Medellín | Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="img/logo.jpg" alt="Logo HashtagStore" class="logo-nav"></a>
+        <h1>#HashtagStoreMedellín</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Zapatos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="carrito.html" class="icon-carro active-carro">🛒 <span class="cont-carro">2</span></a>
+        </nav>
+    </header>
+
+    <main class="carro-cont-ppal">
+        
+        <section class="carro-detalle">
+            <h2>Carrito de Compras</h2>
+            
+            <div class="item-caja">
+                <div class="item-img-espacio"><img src="img/1.jpeg" alt=""></div>
+                <div class="item-info">
+                    <h3>Sneaker Minimalista</h3>
+                    <p>Talla: 40 | Color: Blanco</p>
+                    <div class="item-control">
+                        <input type="number" value="1" min="1">
+                        <button class="btn-quitar">Eliminar</button>
+                    </div>
+                </div>
+                <span class="item-precio">$180.000 COP</span>
+            </div>
+
+            <div class="item-caja">
+                <div class="item-img-espacio"><img src="img/2.jpeg" alt=""></div>
+                <div class="item-info">
+                    <h3>Botín Urbano</h3>
+                    <p>Talla: 42 | Color: Negro</p>
+                    <div class="item-control">
+                        <input type="number" value="1" min="1">
+                        <button class="btn-quitar">Eliminar</button>
+                    </div>
+                </div>
+                <span class="item-precio">$220.000 COP</span>
+            </div>
+
+            <a href="productos.html" class="btn-volver">← Continuar Comprando</a>
+        </section>
+
+        <aside class="resumen-pago">
+            <h3>Resumen del Pedido</h3>
+            
+            <div class="linea-resumen">
+                <span>Subtotal (2 productos)</span>
+                <span>$400.000 COP</span>
+            </div>
+            <div class="linea-resumen">
+                <span>Envío a Medellín</span>
+                <span>GRATIS</span>
+            </div>
+            
+            <div class="linea-resumen total-resumen">
+                <h4>TOTAL:</h4>
+                <h4>$400.000 COP</h4>
+            </div>
+
+            <button class="btn-pagar">Proceder al Pago</button>
+        </aside>
+    </main>
+
+       <footer id="contacto">
+        <div class="pie-cont">
+            <div class="pie-secc enlaces-rapidos">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Ver Zapatos</a></li>
+                    <li><a href="carrito.html">Mi Carrito</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+
+            <div class="pie-secc contacto-social">
+                <h4>Contacto & Social</h4>
+                <p>📍C.C Hollywood Medellin</p>
+                <p>📲 3023449199</p>
+                <div class="redes-links">
+                    <a href="https://www.instagram.com/hashtagmedellin/#">Instagram</a>
+                    <a href="https://www.tiktok.com/@hashtagmedellin">TikTok</a>
+                </div>
+            </div>
+
+            <div class="pie-secc boletin">
+                <h4>Suscríbete al Estilo #HashtagStore</h4>
+                <form>
+                    <input type="email" placeholder="Ingresa tu email">
+                    <button type="submit">Suscribir</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="pie-base">
+            <p>&copy; 2025 HashtagStore Medellín. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
